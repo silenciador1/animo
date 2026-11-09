@@ -18,3 +18,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-o-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
+
+	animation-fill-mode: both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000;
+
+	-o-animation-fill-mode: both;
+	-o-transform: translate3d(0, 0, 0);
+	-o-perspective: 1000;
+
+	-moz-animation-fill-mode: both;
