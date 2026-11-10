@@ -28,3 +28,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-o-perspective: 1000;
 
 	-moz-animation-fill-mode: both;
+	-moz-transform: translate3d(0, 0, 0);
+	-moz-perspective: 1000;
+
+	-webkit-animation-fill-mode: both;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-perspective: 1000;
+}
+
+@-webkit-keyframes flash {
+	0%, 50%, 100% {opacity: 1;}	
